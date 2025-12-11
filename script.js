@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('contact-form');
     if (form) {
         // URL вашего Google Apps Script
-        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxdJnG84qTwxtKLUTDLrthTi3KLj2gTwR7pWkMte_gCUQL9KAyluNllbqO4txS1RfUI/exec';
+        const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxLzWVVi_tqp_U4l_eEu-k82W4eaqTG7vSzWgnuskZD-VhsrpAZY8jf0S84U9ABOcQqFw/exec';
         
         form.addEventListener('submit', async function(e) {
             e.preventDefault();
